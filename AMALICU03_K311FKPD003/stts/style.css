@@ -1,0 +1,103 @@
+body
+{
+background-color:#EEE;
+font-family: calibri;
+
+}
+
+
+#container
+{
+background-color : white;
+width:800px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#banner
+{
+image-align:center;
+}
+
+#header
+{
+background-color:darkblue;
+color:white;
+text-align : center;
+}
+
+
+#content
+{
+padding:10px;
+}
+
+#nav
+{width:180px; height:410px; float:right;}
+
+#nav>ul
+{
+list-style:none;
+}
+
+li>a
+{
+display: block;
+color: black;
+line-height: 30px;
+text-align: center;
+font-size: 15px;
+text-decoration: none;
+
+}
+
+li>a:hover{background: grey;color:#333;color:white;}
+
+
+#main
+{
+width:500px;
+float:right;
+}
+
+#footer
+{
+clear:both;
+text-align : center;
+background-color:yellow;
+color:black;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+	width: 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+	
+.submit {
+	border-radius: 8px;
+}
+	
+.reset {
+	border-radius: 8px;
+	background-color: indianred;
+}
+
+#login table tbody tr th {
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif;
+}
+    
+#user {
+	width: 95%;
+}
+	
+#pass {
+	width: 95%;
+}
